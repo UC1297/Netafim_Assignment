@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "Netafim_Assignment.Controllers.TimerController",
+    "Method": "CreateTimer",
+    "RelativePath": "api/Timer/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Netafim_Assignment.Models.TimerRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Netafim_Assignment.Controllers.TimerController",
+    "Method": "GetTimerStatus",
+    "RelativePath": "api/Timer/status/{timerId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "timerId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
